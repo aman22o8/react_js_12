@@ -1,0 +1,24 @@
+/* Write your code here. */
+.items_container {
+  list-style-type: none;
+}
+.thumbnailimage {
+  height: 50px;
+  background-size: cover;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.active_tab {
+  opacity: 0.5;
+}
+.button {
+  border-style: none;
+  border-width: 0px;
+  background-color: transparent;
+}
+
+@media screen and (max-width: 768px) {
+  .button {
+    margin-bottom: 10px;
+  }
+}
